@@ -1688,6 +1688,18 @@ select.form-control {
   justify-content: center;
 }
 
+/* Actual Image Styles */
+.image-container img.design-image {
+  max-width: 100%;
+  max-height: 400px;
+  width: auto;
+  height: auto;
+  object-fit: contain;
+  border-radius: var(--radius-base);
+  box-shadow: var(--shadow-sm);
+  border: 1px solid var(--color-border);
+}
+
 .image-placeholder {
   background: var(--color-surface);
   border: 2px dashed var(--color-border);
